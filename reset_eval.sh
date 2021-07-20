@@ -9,7 +9,7 @@ if [[ $OS_NAME == "Linux" ]]; then
         rm -rf ~/.java/.userPrefs/jetbrains/
 	rm -rf ~/.local/share/JetBrains
 	rm -rf ~/.cache/JetBrains
-        rm ~/.java/.userPrefs/prefs.xml
+        rm -rf ~/.java/.userPrefs/prefs.xml
 else
         echo 'Your OS is not Linux. Failed reset eval.'
         exit
